@@ -1,2 +1,0 @@
-# MernGPA
-Bitsol BootCamp Group
