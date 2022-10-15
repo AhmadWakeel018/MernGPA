@@ -1,0 +1,42 @@
+/* Gloabal Style Start */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* Global Style End */
+
+#main-cv {
+    width: 90%;
+    margin: auto;
+    border: 2px solid #000000;
+}
+#main-cv h3 {
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.main-header {
+    display: flex;
+}
+.left-content {
+    flex-basis: 40%;
+    padding: 20px;
+    background-color: #E6E6E6;
+}
+.right-content {
+    flex-basis: 100%;
+    background-color: #FFFFFF;
+}
+.profile-header h2 {
+    color: #194c50;
+    margin-bottom: 10px;
+}
+.profile-header img {
+    border-radius: 50%;
+}
+.profile-contect {
+    margin-top: 10px;
+}
+.summery {
+    padding: 20px;
+}
