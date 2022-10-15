@@ -2,13 +2,19 @@
 * {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 /* Global Style End */
+body {
+    background-color: #B7B6B2;
+}
 
 #main-cv {
     width: 90%;
     margin: auto;
-    border: 2px solid #000000;
+    border: 2px solid #949494;
+    box-shadow: 0px 0px 50px #454545;
+    border-radius: 3px;
 }
 #main-cv h3 {
     margin-bottom: 5px;
@@ -19,7 +25,7 @@
     display: flex;
 }
 .left-content {
-    flex-basis: 40%;
+    flex-basis: 30%;
     padding: 20px;
     background-color: #E6E6E6;
 }
@@ -39,4 +45,10 @@
 }
 .summery {
     padding: 20px;
+}
+.profile-expertience {
+    margin-top: 20px;
+}
+.profile-expertience ul {
+    margin-left: 20px;
 }
